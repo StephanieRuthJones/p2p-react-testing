@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 import { Loading } from './components/loading/Loading'
-import PostsContainer from './components/postsContainer/PostsContainer'
+import PostsContainer from './components/postsContainer/PostsContainer.jsx'
 
 function App() {
   const [posts, setPosts] = useState([])
