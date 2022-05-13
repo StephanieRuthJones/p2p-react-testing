@@ -5,7 +5,6 @@ import PostsContainer from './components/postsContainer/PostsContainer'
 
 function App() {
   const [posts, setPosts] = useState([])
-  const [isError, setIsError] = useState(false)
   const [isLoading, setIsLoading] = useState(false)
 
   const fetchPosts = async () => {
